@@ -1,10 +1,8 @@
 def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
-    total_lower = first_name.lower() + " " + last_name.lower()
-    title_case = first_name.capitalize() + " " + last_name.capitalize()
-    total_upper = first_name.upper() + " " + last_name.upper()
-    print(total_lower)
-    print(title_case)
-    print(total_upper)    
-    print(tabbed_lower)
+    full_name = f"{first_name} {last_name}"
+    print(full_name.lower())
+    print(full_name.title())
+    print(full_name.upper())
+    print(f"\t{full_name. lower ()}")
